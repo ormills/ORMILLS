@@ -1,0 +1,306 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-boxs;
+}
+
+header {
+    background:gray;
+    height:5rem;
+    width: 100%;
+    text-decoration:none;
+}
+
+label.logo{
+    color: whitesmoke;
+    font-size:2rem;
+    line-height:5rem;
+}
+
+li{
+   
+    color:whitesmoke;
+}
+
+
+
+
+
+@media screen and (max-width:768) {
+    .Scontent h1{
+      color:red;
+     }
+  }
+  
+  @media screen and (max-width:600) {
+    .Scontent h1{
+      color:red;
+     }
+  }
+  
+  @media screen and (min-width:800) {
+    .Scontent h1{
+      color:red;
+     }
+     .Acontent{
+      color:whitesmoke;
+      font-family:Roboto;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      top: 20px;
+      width: 47rem;
+      height: 100vh;
+      margin-left:40%;
+      font-size:large;
+   }
+  
+   .Profile1 {
+     position: absolute;
+     top: 55%;
+     right:65%;
+     height:auto;
+     width:20rem;
+     border-radius:20%;
+     transform: translate(0, -50%);
+   }
+  }
+  
+  @media screen and (min-width:900) {
+   .Scontent h1{
+      color:red;
+     }
+  
+     .Acontent{
+      color:whitesmoke;
+      font-family:Roboto;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      top: 20px;
+      width:37rem;
+      height: 100vh;
+      margin-left:40%;
+      font-size:large;
+   }
+   .Profile {
+    position: absolute;
+    top: 50%;
+    right:9%;
+    width: 25rem;
+    height:25rem;
+    border-radius:50%;
+    transform: translate(0, -50%);
+  }
+   .Profile1 {
+     position: absolute;
+     top: 55%;
+     right:65%;
+     height:auto;
+     width:20rem;
+     border-radius:20%;
+     transform: translate(0, -50%);
+   }
+  }
+
+
+
+
+
+  
+  .carousel {
+    width: 25rem;
+    height: 25rem;
+    overflow: hidden;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+
+
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 0.5rem 5%; 
+    }
+  
+    .nav {
+      display: none; 
+    }
+  
+    .icon {
+      display: block; 
+      cursor: pointer;
+    }
+  
+    .nav li {
+      display: block; 
+      margin: 10px 0; 
+    }
+    .Sec_Container {
+      flex-direction: column; 
+      align-items: center; 
+    }
+    .Scontent {
+      margin-left: 0; 
+      text-align: center;  
+    }
+  
+    .Profile {
+      margin-right: 0; 
+      right: auto;
+    }
+  
+    .Acontent {
+      margin-left: 0;
+    }
+  
+    .Profile1 {
+      right: 50%;
+      transform: translateX(50%);
+    }
+  
+    .Skills {
+      margin-left: 0; 
+  
+    .section,
+    .Skills {
+      height: auto; 
+    }
+  
+    .html,
+    .css {
+      margin: 20px 0; 
+    }
+  }
+  }
+  
+  
+ /* Media Query for screens smaller than 480px */
+@media screen and (max-width: 480px) {
+  .nav {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background: gray;
+      z-index: 99;
+  }
+
+  .nav li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  .icon {
+      display: block;
+      cursor: pointer;
+  }
+
+  .Sec_Container {
+      margin-left: 0;
+      flex-direction: column-reverse;
+      align-items:starts;
+  }
+
+  .Scontent {
+      margin-right: 0;
+      text-align: center;
+  }
+
+  .Profile {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      transform: translate(0, 0);
+      order: -1; /* Set the order to display the image first */
+  }
+
+  .Acontent {
+      margin-left: 5%;
+      width: 90%;
+  }
+
+  .Acontent p {
+      font-size:10px;
+  }
+
+  .Acontent h1 {
+      font-size: medium;
+  }
+
+  .Profile1 {
+      width:80%;
+      max-width:100px;
+      height: auto;
+      margin-top:20px;
+      margin-bottom: 20px;
+      transform: translate(0, 0);
+      order: 1;
+  }
+
+  .Skills,
+  .section {
+      margin-left: 5%;
+  }
+
+  footer {
+      padding: 1rem 5%;
+      text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.Acontent{
+
+  color:whitesmoke;
+  font-family:Poppins;
+  display:flex;
+  position:absolute;
+  justify-content:center;
+  align-items:center;
+  top:0;
+  width:44rem;
+  height: 100vh;
+  margin-left:35%;
+  font-size:x-large;
+  
+}
+
+.Profile1 {
+ position: absolute;
+ top: 55%;
+ right:65%;
+ height:auto;
+ width:20rem;
+ border-radius:20%;
+ transform: translate(0, -50%);
+}
